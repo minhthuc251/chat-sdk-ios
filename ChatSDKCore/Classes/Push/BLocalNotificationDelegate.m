@@ -37,7 +37,7 @@
     }
     
     if (showLocalNotification) {
-        completionHandler(UNNotificationPresentationOptionBadge | UNNotificationPresentationOptionSound | UNNotificationPresentationOptionAlert);
+        completionHandler(UNNotificationPresentationOptionBadge);
     }
 }
 
